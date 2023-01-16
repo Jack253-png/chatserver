@@ -18,6 +18,7 @@ dependencies {
     implementation('com.formdev:flatlaf:2.4')
     implementation('org.apache.commons:commons-lang3:3.5')
     implementation('org.nanohttpd:nanohttpd:2.3.1')
+    implementation('com.google.code.gson:gson:2.8.9')
 }
 
 test {
