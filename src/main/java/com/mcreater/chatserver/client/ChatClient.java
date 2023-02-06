@@ -34,8 +34,11 @@ public class ChatClient {
     }
 
     public void run() throws InterruptedException {
-        bootstrap.connect(host, port).sync()
-                .channel().closeFuture().sync();
+        bootstrap.connect(host, port)
+                .sync()
+                .channel()
+                .closeFuture()
+                .sync();
     }
 
 }
